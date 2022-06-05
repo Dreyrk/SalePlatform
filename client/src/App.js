@@ -1,9 +1,9 @@
 import React from "react";
 
-function App() {
+function App({ name }) {
   return (
     <div className="App">
-      <p>Bonjour</p>
+      <p>Bonjour, {name}</p>
     </div>
   );
 }
